@@ -5,6 +5,8 @@
  uses internally for its end-user products,
  such as Google Search, Gmail, file storage, 
  and YouTube.
+ 
+ 
  <img src="gcp.png">
  
  
