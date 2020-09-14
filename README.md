@@ -105,7 +105,7 @@ For this we have to run the command
   
   
      
- # Step 6:
+ # Step 5:
  Now we require a database to store the data of the wordpress for backend. Here we will use SQl service of 
  GCP, using this service we will launch mysql database in Production.
  
@@ -123,7 +123,7 @@ For this we have to run the command
   <img src="sql4.png">
   
   
- # STEP 7:
+ # STEP 6:
  Now using the external IP we can connect to our wordpress site, here we'll require our database details to connect our 
  wordpress to backend database.
  
