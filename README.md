@@ -4,7 +4,10 @@
  runs on the same infrastructure that Google
  uses internally for its end-user products,
  such as Google Search, Gmail, file storage, 
- and YouTube
+ and YouTube.
+ <img src="gcp.png">
+ 
+ 
  
 # GKE
  Google Kubernetes Engine (GKE) provides a managed 
@@ -13,6 +16,8 @@
  infrastructure. The GKE environment consists of 
  multiple machines (specifically, Compute Engine 
  instances) grouped together to form a cluster.
+<img src="gke.png">
+
 
 
 # TASK DESCRIPTION :
