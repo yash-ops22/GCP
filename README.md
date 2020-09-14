@@ -69,6 +69,10 @@ Through Production VPC
 For deploying our wordpress on Google Cloud PLatform we are creating a Kubernetes cluster with one of the
 service of GCP known as GKE(Google Kubernetes Engine).
 
+<img src="gke.png">
+
+
+
 Now for launching wordpress on GKE, we have to connect to GKE,here i'm connecting through cloud shell provided by GCP.
 Also for doing the same we can install GOOGLE Cloud SDK in our system and have to configure kubectl to control pods.
 
@@ -96,19 +100,27 @@ For this we have to run the command
      kubectl get svc
      
      
-  <img src="  ">    
+  <img src="svc.png"> 
+  
+  
+  
      
  # Step 6:
- Now we require a database to stoe the data of the worpress for backend. Here we will use SQl service of 
+ Now we require a database to store the data of the wordpress for backend. Here we will use SQl service of 
  GCP, using this service we will launch mysql database in Production.
  
- We can add network to public ip to connect.
-  <img src="  ">
-  
-  
- We can create new database in the mysql or we can use the pecreated database.
+ <img src="sql2.png">
  
-  <img src="  ">
+ 
+ 
+ We can add network to public ip to connect.
+  <img src="net.png">
+ 
+ 
+  
+ We can create new database in the mysql or we can use the precreated database.
+ 
+  <img src="sql4.png">
   
   
  # STEP 7:
@@ -116,7 +128,11 @@ For this we have to run the command
  wordpress to backend database.
  
  
- <img src="  ">
+ <img src="wpphp.png">
+ 
+ 
+ 
+ <img src="wp4.png">
  
      
      
