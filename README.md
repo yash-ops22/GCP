@@ -18,7 +18,7 @@
  infrastructure. The GKE environment consists of 
  multiple machines (specifically, Compute Engine 
  instances) grouped together to form a cluster.
-<img src="gke.png">
+<img src="gkeq.png">
 
 
 
