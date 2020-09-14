@@ -54,7 +54,7 @@ Since we have created both the VPC in different Regions so for making connection
 wordpress can connect to our database. These VPCs can be connected trough VPC Peering.
 We have to do vpc peering in both the VPCs.
 
-Tgrough Developer VPC
+Through Developer VPC
 
  <img src="peerdev.png">
   
@@ -128,7 +128,7 @@ For this we have to run the command
  wordpress to backend database.
  
  
- <img src="wpphp.png">
+ <img src="wphp.png">
  
  
  
