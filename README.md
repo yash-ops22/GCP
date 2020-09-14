@@ -24,27 +24,44 @@ Creating the infrastructure  we are creating two projects in different regions.
 let One project be called Production and other one for Developer.
 
 Creating A Project for Production 
- <img src="  ">
+ <img src="prodpro.png">
 
 
 
 Creating A Project for Developer
- <img src="  ">
+ <img src="devpro.png">
 
 
 # STEP 2:
 
 Within the projects we have to create VPC( Virtual Private cloud).
-In one vpc we'll launch our wordpress and in other our database which is mysql.
 
- <img src="  ">
+Creating VPC for Production Environment
+
+ <img src="vpcprod.png">
+ 
+ 
+ 
+ Creating VPC for developer Environment
+  
+  <img src="devvpc.png">
+  
+  
 
 # STEP 3:
 
 Since we have created both the VPC in different Regions so for making connection between them so that 
 wordpress can connect to our database. These VPCs can be connected trough VPC Peering.
+We have to do vpc peering in both the VPCs.
 
- <img src="  ">
+Tgrough Developer VPC
+
+ <img src="peerdev.png">
+  
+ 
+Through Production VPC
+
+ <img src="peerprod.png">
 
 
 # STEP 4:
